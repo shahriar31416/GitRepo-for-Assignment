@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.backimage {
+  min-height:698px ;
+  background-image: url('../assets/hero-bg.png');
+  background-repeat: no-repeat repeat; 
+  background-size: cover; 
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 60px ;
+  margin: 0;
+  text-align: center;
+}
+
+/*nav styles*/
+.navup {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 0;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.inter-elegant {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.navup h1 {
+     color: #4E47FF;
+    margin-left: 0px;
+}
+
+.raleway-driver {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    }
+.navup ul { 
+    list-style: none;
+    margin: 0;      
+    padding: 0;
+}
+.setup {
+  background-color: #4E47FF;
+  width: 132px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* for visible text */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.setup:hover {
+  background-color: #3b37cc;
+  transform: scale(1.05);
+}
