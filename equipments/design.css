@@ -44,8 +44,7 @@ html, body {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
-    font-style: normal;
-    font-size: 16px;
+    font-style: normal; 
     line-height: 24px;
     }
 .navup ul { 
@@ -54,6 +53,8 @@ html, body {
     padding: 0;
 }
 .setup {
+  line-height: 24px;
+  font-size: 16px;
   background-color: #4E47FF;
   width: 132px;
   height: 48px;
@@ -68,6 +69,40 @@ html, body {
 }
 
 .setup:hover {
+  background-color: #3b37cc;
+  transform: scale(1.05);
+}
+.cell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 150px;
+}
+.cosmetics {
+    font-size: 65px;         
+    color: #252432;   
+    text-align: center;
+    line-height: 1.1;
+     margin: 40px 0;
+}
+.getup{
+    background-color: #4E47FF;
+    width: 174px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.getup:hover {
   background-color: #3b37cc;
   transform: scale(1.05);
 }
