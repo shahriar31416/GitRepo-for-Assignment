@@ -6,7 +6,7 @@ html, body {
 
 .backimage {
   min-height: 698px;
-  background-image: url('../assets/hero-bg.png');
+  background-image: url('../Assets/Hero-Bg.png');
   background-repeat: no-repeat repeat;
   background-size: cover;
   background-position: center;
