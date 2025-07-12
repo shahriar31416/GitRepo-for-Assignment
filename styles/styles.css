@@ -48,6 +48,7 @@ html, body {
   color: #4E47FF;
   font-size: 28px;
   margin-left: 0px;
+  font-weight: 900;
 }
 
 .raleway-driver {
@@ -229,6 +230,8 @@ html, body {
   width: 100%;
   border-radius: 16px;
   margin-top: 100px;
+  justify-content: center;    
+
 }
 
 .stats-section h2 {
@@ -390,10 +393,13 @@ html, body {
   font-size: 14px;
   cursor: pointer;
   margin-bottom: 32px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .focus-btn:hover {
-  background-color: #3c38d3;
+  background-color: #372fff; 
+  transform: scale(1.05);   
 }
 
 .focus-image {
@@ -465,12 +471,14 @@ html, body {
   border: none;
   border-radius: 6px;
   font-size: 14px;
-  cursor: pointer;
   margin-top: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .contact-form button:hover {
-  background-color: #3c38d3;
+ background-color: #372fff;  
+  transform: scale(1.03);     
 }
 
 .site-footer {
