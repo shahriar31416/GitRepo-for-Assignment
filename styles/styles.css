@@ -41,7 +41,6 @@ html, body {
 .inter-elegant {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 900;
   font-style: normal;
 }
 
@@ -128,7 +127,7 @@ html, body {
 
 .tofoot {
   background-color: #f6f8ff;
-  padding: 60px 0;
+  padding: 60px 0px;
   margin: 0;
    width: 100%;
 }
@@ -395,6 +394,7 @@ html, body {
 }
 
 .contact-section {
+  max-width: 1480px;
   padding: 80px 40px;
 }
 
@@ -402,19 +402,20 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: 1200px;
   margin: 0 auto;
   gap: 40px;
   flex-wrap: wrap;
 }
 
 .contact-text h2 {
-  font-size: 48px;
+  font-size: 120px;
   font-weight: 700;
   line-height: 1.2;
   color: #111;
   margin: 0;
+  margin-top: 120px;
 }
+
 
 .contact-form {
   flex: 1;
@@ -426,17 +427,18 @@ html, body {
 }
 
 .contact-form label {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   color: #333;
 }
 
 .contact-form input,
 .contact-form textarea {
-  padding: 12px 14px;
+  padding: 40px 80px;
+  padding-left: 16px;
   border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 14px;
+  border-radius: 15px;
+  font-size: 18px;
   outline: none;
 }
 
@@ -464,12 +466,11 @@ html, body {
   background-color: white;
   text-align: center;
   padding: 60px 20px;
-  font-family: Arial, sans-serif;
 }
 
 .footer-logo {
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 90px;
+  font-weight: 900;
   color: #4e47ff;
   margin-bottom: 16px;
 }
@@ -500,3 +501,15 @@ html, body {
   color: #4e47ff;
 }
 
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.footext {
+  font-weight: 400;
+}
