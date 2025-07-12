@@ -27,30 +27,6 @@ html, body {
   font-style: normal;
 }
 
-.navword {
-  cursor: pointer;
-  padding-bottom: 4px;
-  transition: color 0.3s ease, border-bottom 0.3s ease;
-  animation: glowMove 2s infinite linear;
-  color: #fff;
-}
-
-@keyframes glowMove {
-  0% {
-    text-shadow: 0 0 5px #4E47FF, 0 0 10px #4E47FF, 0 0 20px #4E47FF;
-  }
-  50% {
-    text-shadow: 0 0 20px #FF00FF, 0 0 30px #4E47FF, 0 0 40px #4E47FF;
-  }
-  100% {
-    text-shadow: 0 0 5px #4E47FF, 0 0 10px #4E47FF, 0 0 20px #4E47FF;
-  }
-}
-
-.navword:hover {
-  color: #4E47FF;
-  border-bottom: 2px solid #4E47FF;
-}
 
 .navup {
   display: flex;
@@ -71,7 +47,7 @@ html, body {
 
 .navup h1 {
   color: #4E47FF;
-  font-size: 50px;
+  font-size: 28px;
   margin-left: 0px;
 }
 
@@ -154,6 +130,7 @@ html, body {
   background-color: #f6f8ff;
   padding: 60px 0;
   margin: 0;
+   width: 100%;
 }
 
 .preview-section,
@@ -257,11 +234,10 @@ html, body {
 }
 
 .stats-section h2 {
-  font-size: 24px;
+  font-size: 60px;
   font-weight: 700;
   color: #1a1a1a;
   margin-bottom: 40px;
-  font-family: 'Raleway', sans-serif;
 }
 
 .stats-grid {
@@ -276,29 +252,31 @@ html, body {
 .stat-item {
   flex: 1;
   min-width: 150px;
+  text-align: center;
 }
 
 .stat-number {
   font-size: 48px;
   font-weight: 800;
   color: #4E47FF;
-  font-family: 'Raleway', sans-serif;
+  margin-bottom: 8px;
 }
 
 .stat-label {
-  font-size: 16px;
+  font-size: 18px;
   color: #555;
-  margin-top: 8px;
-  font-family: 'Raleway', sans-serif;
+  opacity: 0.85;
+  margin-top: 0px;
 }
 
 
 .testimonials {
+  max-width: 1500px;
+  margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
   text-align: center;
 }
-
 .testimonials h2 {
   font-size: 24px;
   margin-bottom: 40px;
@@ -314,9 +292,11 @@ html, body {
 }
 
 .testimonial-card {
+ 
   padding: 20px;
   border-radius: 12px;
-  width: 300px;
+  height: 300px;
+  width: 430px;
   text-align: left;
 }
 
@@ -331,6 +311,7 @@ html, body {
 }
 
 .testimonial-card h3 {
+
   font-size: 16px;
   font-weight: bold;
   margin: 0;
@@ -367,15 +348,14 @@ html, body {
 }
 
 .focus-section {
-  background: #ffffff;
+  background: #ffffff !important;
   border-radius: 16px;
   padding: 60px 40px;
-  max-width: 900px;
+  max-width: 1400px;
+  height: 800px;
   margin: 60px auto;
   text-align: center;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
-  position: relative;
-  z-index: 1;
+  
 }
 
 .focus-section h2 {
